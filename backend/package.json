@@ -1,0 +1,37 @@
+{
+    "name": "@tsm/backend",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "build": "tsc -p tsconfig.json",
+        "start": "node dist/server.js",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "test:coverage": "vitest run --coverage",
+        "coverage:analyze": "node scripts/analyze-coverage.mjs",
+        "seed:reset": "tsx src/scripts/reset-db.ts"
+    },
+    "dependencies": {
+        "@tsm/shared": "*",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "lowdb": "^7.0.1",
+        "nanoid": "^5.0.7",
+        "react-router-dom": "7.18.2",
+        "vite": "8.2.2",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.10",
+        "@types/supertest": "^6.0.2",
+        "@vitest/coverage-v8": "^4.1.11",
+        "supertest": "^7.0.0",
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.4",
+        "vitest": "^4.1.11"
+    }
+}

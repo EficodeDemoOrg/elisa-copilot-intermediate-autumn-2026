@@ -1,0 +1,178 @@
+{
+  "skills": [
+    { "id": "skl_ts",      "name": "TypeScript",            "category": "Languages",   "targetLevel": 3, "description": "Static typing for JavaScript." },
+    { "id": "skl_react",   "name": "React",                 "category": "Frontend",    "targetLevel": 3, "description": "Component-based UI library." },
+    { "id": "skl_node",    "name": "Node.js",               "category": "Backend",     "targetLevel": 3, "description": "Server-side JavaScript runtime." },
+    { "id": "skl_sql",     "name": "SQL & Databases",       "category": "Data",        "targetLevel": 3, "description": "Relational data modeling and queries." },
+    { "id": "skl_docker",  "name": "Docker",                "category": "DevOps",      "targetLevel": 2, "description": "Containerization fundamentals." },
+    { "id": "skl_k8s",     "name": "Kubernetes",            "category": "DevOps",      "targetLevel": 2, "description": "Container orchestration." },
+    { "id": "skl_aws",     "name": "AWS",                   "category": "Cloud",       "targetLevel": 2, "description": "AWS core services." },
+    { "id": "skl_test",    "name": "Automated Testing",     "category": "Quality",     "targetLevel": 3, "description": "Unit, integration, and E2E testing." },
+    { "id": "skl_a11y",    "name": "Accessibility (a11y)",  "category": "Frontend",    "targetLevel": 3, "description": "WCAG, ARIA, keyboard nav." },
+    { "id": "skl_sec",     "name": "Application Security",  "category": "Security",    "targetLevel": 3, "description": "OWASP, secure coding." },
+    { "id": "skl_perf",    "name": "Performance Tuning",    "category": "Quality",     "targetLevel": 2, "description": "Profiling and optimization." },
+    { "id": "skl_arch",    "name": "System Design",         "category": "Architecture","targetLevel": 3, "description": "Distributed systems design." },
+    { "id": "skl_ci",      "name": "CI/CD",                 "category": "DevOps",      "targetLevel": 3, "description": "Build and deployment pipelines." },
+    { "id": "skl_obs",     "name": "Observability",         "category": "Operations",  "targetLevel": 2, "description": "Logging, metrics, tracing." },
+    { "id": "skl_agile",   "name": "Agile Practices",       "category": "Process",     "targetLevel": 3, "description": "Scrum, Kanban, retros." }
+  ],
+  "teams": [
+    { "id": "team_platform",  "name": "Platform",  "description": "Core platform & infrastructure." },
+    { "id": "team_product",   "name": "Product",   "description": "Customer-facing product squad." },
+    { "id": "team_data",      "name": "Data",      "description": "Data engineering & analytics." }
+  ],
+  "engineers": [
+    { "id": "eng_p1", "name": "Alex Morgan",    "role": "Staff Engineer",   "teamId": "team_platform" },
+    { "id": "eng_p2", "name": "Bilal Hassan",   "role": "Senior Engineer",  "teamId": "team_platform" },
+    { "id": "eng_p3", "name": "Chen Wei",       "role": "Engineer",         "teamId": "team_platform" },
+    { "id": "eng_p4", "name": "Dana Park",      "role": "Engineer",         "teamId": "team_platform" },
+    { "id": "eng_p5", "name": "Esi Boateng",    "role": "Junior Engineer",  "teamId": "team_platform" },
+    { "id": "eng_p6", "name": "Farid Khoury",   "role": "SRE",              "teamId": "team_platform" },
+
+    { "id": "eng_r1", "name": "Grace Lin",      "role": "Tech Lead",        "teamId": "team_product" },
+    { "id": "eng_r2", "name": "Hugo Marchetti", "role": "Senior Engineer",  "teamId": "team_product" },
+    { "id": "eng_r3", "name": "Ines Vasquez",   "role": "Engineer",         "teamId": "team_product" },
+    { "id": "eng_r4", "name": "Jonas Berg",     "role": "Engineer",         "teamId": "team_product" },
+    { "id": "eng_r5", "name": "Kiri Nakamura",  "role": "Junior Engineer",  "teamId": "team_product" },
+    { "id": "eng_r6", "name": "Liam O'Connor",  "role": "Designer-Engineer","teamId": "team_product" },
+
+    { "id": "eng_d1", "name": "Maya Patel",     "role": "Tech Lead",        "teamId": "team_data" },
+    { "id": "eng_d2", "name": "Nils Andersen",  "role": "Senior Engineer",  "teamId": "team_data" },
+    { "id": "eng_d3", "name": "Olive Tanaka",   "role": "Engineer",         "teamId": "team_data" },
+    { "id": "eng_d4", "name": "Priya Raman",    "role": "Engineer",         "teamId": "team_data" },
+    { "id": "eng_d5", "name": "Quinn Reyes",    "role": "Analyst-Engineer", "teamId": "team_data" },
+    { "id": "eng_d6", "name": "Rune Solberg",   "role": "Junior Engineer",  "teamId": "team_data" }
+  ],
+  "assessments": [
+    { "engineerId": "eng_p1", "skillId": "skl_ts",     "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_node",   "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_arch",   "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_k8s",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_aws",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_ci",     "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p1", "skillId": "skl_obs",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_p2", "skillId": "skl_ts",     "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p2", "skillId": "skl_node",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p2", "skillId": "skl_docker", "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p2", "skillId": "skl_k8s",    "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p2", "skillId": "skl_ci",     "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p2", "skillId": "skl_sec",    "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_p3", "skillId": "skl_ts",     "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p3", "skillId": "skl_node",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p3", "skillId": "skl_docker", "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p3", "skillId": "skl_test",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_p4", "skillId": "skl_ts",     "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p4", "skillId": "skl_node",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p4", "skillId": "skl_sql",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p4", "skillId": "skl_sec",    "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_p5", "skillId": "skl_ts",     "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p5", "skillId": "skl_node",   "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p5", "skillId": "skl_test",   "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_p6", "skillId": "skl_k8s",    "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p6", "skillId": "skl_aws",    "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p6", "skillId": "skl_obs",    "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p6", "skillId": "skl_ci",     "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_p6", "skillId": "skl_docker", "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r1", "skillId": "skl_ts",     "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r1", "skillId": "skl_react",  "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r1", "skillId": "skl_a11y",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r1", "skillId": "skl_arch",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r1", "skillId": "skl_agile",  "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r2", "skillId": "skl_ts",     "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r2", "skillId": "skl_react",  "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r2", "skillId": "skl_node",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r2", "skillId": "skl_a11y",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r2", "skillId": "skl_test",   "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r3", "skillId": "skl_ts",     "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r3", "skillId": "skl_react",  "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r3", "skillId": "skl_test",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r4", "skillId": "skl_react",  "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r4", "skillId": "skl_ts",     "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r4", "skillId": "skl_perf",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r5", "skillId": "skl_react",  "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r5", "skillId": "skl_ts",     "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_r6", "skillId": "skl_react",  "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_r6", "skillId": "skl_a11y",   "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d1", "skillId": "skl_sql",    "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d1", "skillId": "skl_arch",   "level": 4, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d1", "skillId": "skl_aws",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d1", "skillId": "skl_agile",  "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d2", "skillId": "skl_sql",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d2", "skillId": "skl_ts",     "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d2", "skillId": "skl_obs",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d3", "skillId": "skl_sql",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d3", "skillId": "skl_perf",   "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d4", "skillId": "skl_sql",    "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d4", "skillId": "skl_ts",     "level": 2, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d5", "skillId": "skl_sql",    "level": 3, "updatedAt": "2026-05-01T10:00:00.000Z" },
+
+    { "engineerId": "eng_d6", "skillId": "skl_sql",    "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" },
+    { "engineerId": "eng_d6", "skillId": "skl_ts",     "level": 1, "updatedAt": "2026-05-01T10:00:00.000Z" }
+  ],
+  "resources": {
+    "skl_ts": [
+      { "title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "targetLevel": 2 },
+      { "title": "Type-Level TypeScript", "url": "https://type-level-typescript.com/", "targetLevel": 4 }
+    ],
+    "skl_react": [
+      { "title": "React docs — Learn", "url": "https://react.dev/learn", "targetLevel": 2 },
+      { "title": "Patterns.dev — React", "url": "https://www.patterns.dev/", "targetLevel": 3 }
+    ],
+    "skl_node": [
+      { "title": "Node.js Guides", "url": "https://nodejs.org/en/learn", "targetLevel": 2 }
+    ],
+    "skl_sql": [
+      { "title": "Use the Index, Luke!", "url": "https://use-the-index-luke.com/", "targetLevel": 3 }
+    ],
+    "skl_docker": [
+      { "title": "Docker — Get Started", "url": "https://docs.docker.com/get-started/", "targetLevel": 2 }
+    ],
+    "skl_k8s": [
+      { "title": "Kubernetes Basics", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "targetLevel": 2 }
+    ],
+    "skl_aws": [
+      { "title": "AWS Skill Builder", "url": "https://skillbuilder.aws/", "targetLevel": 2 }
+    ],
+    "skl_test": [
+      { "title": "Testing Library docs", "url": "https://testing-library.com/", "targetLevel": 2 },
+      { "title": "Kent C. Dodds — Testing JavaScript", "url": "https://testingjavascript.com/", "targetLevel": 3 }
+    ],
+    "skl_a11y": [
+      { "title": "WebAIM Articles", "url": "https://webaim.org/articles/", "targetLevel": 3 }
+    ],
+    "skl_sec": [
+      { "title": "OWASP Top 10", "url": "https://owasp.org/Top10/", "targetLevel": 3 }
+    ],
+    "skl_perf": [
+      { "title": "web.dev — Performance", "url": "https://web.dev/performance/", "targetLevel": 2 }
+    ],
+    "skl_arch": [
+      { "title": "System Design Primer", "url": "https://github.com/donnemartin/system-design-primer", "targetLevel": 3 }
+    ],
+    "skl_ci": [
+      { "title": "Continuous Delivery", "url": "https://continuousdelivery.com/", "targetLevel": 3 }
+    ],
+    "skl_obs": [
+      { "title": "Observability Engineering (O'Reilly)", "url": "https://www.honeycomb.io/observability-engineering-oreilly-book", "targetLevel": 2 }
+    ],
+    "skl_agile": [
+      { "title": "Scrum Guide", "url": "https://scrumguides.org/scrum-guide.html", "targetLevel": 2 }
+    ]
+  }
+}
