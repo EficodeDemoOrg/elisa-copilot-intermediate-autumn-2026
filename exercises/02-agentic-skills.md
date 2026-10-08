@@ -42,7 +42,7 @@ Control when a skill is available by adjusting its frontmatter settings.
 
 1. Open the test-coverage skill definition you created.
 2. Locate the `user-invocable` and `disable-model-invocation` fields in the frontmatter.
-3. Change `user-invocable` from `true` to `false`.
+3. Change user-invocable from `true` to `false` and `disable-model-invocation` from `false` to `true` .
 4. Try to run `/test-coverage` in the Copilot chat.
 5. Observe that the skill no longer appears as a slash command since it is no longer user-invocable.
 6. Change `user-invocable` back to `true` to restore the slash command.
